@@ -43,6 +43,10 @@ This project delivers a resilient, asynchronous event pipeline designed to inges
 
 ## Visual System Architecture
 
+![Event Gateway High-Level Architecture](docs/images/architecture_hero.png)
+
+### Strict Technical Flow
+
 ```mermaid
 flowchart TB
     subgraph External
