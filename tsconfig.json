@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./gateway-api/tsconfig.json" },
+    { "path": "./gateway-worker/tsconfig.json" },
+    { "path": "./packages/shared/tsconfig.json" }
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2023"],
+    "strict": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  }
+}

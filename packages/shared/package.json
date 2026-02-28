@@ -1,0 +1,23 @@
+{
+  "name": "@fincart/shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "node -e \"console.log('TODO: shared dev')\"",
+    "build": "tsc -p tsconfig.json",
+    "test": "node -e \"console.log('TODO: shared test')\""
+  },
+  "dependencies": {
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
